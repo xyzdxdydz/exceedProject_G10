@@ -1,5 +1,5 @@
 # exceedProject_G10
-The topic is "IOT for new normal" so our group decides to do a water dispenser. this idea based on the "contactless" concept 
+The topic is "IOT for new normal" so our group decides to do a water dispenser. this idea based on the "contactless" concept. 
 
 ### HARDWARE
 
