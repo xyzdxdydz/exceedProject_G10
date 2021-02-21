@@ -17,8 +17,18 @@ python3 timeDivider.py
 
 ### FRONTEND
 
+There is a single page homepage that shows the status of the water dispenser, there will be animation while opening the website for 5 seconds with cool tone colors. Comfortable for the user Program written: HTML + CSS + JAVASCRIPT, the following sections are explained in detail.
+
 มีหน้าเดียวคือ homepage แสดงสถานะต่าง ๆ ของตู้กดน้ำ โดยจะมี Animation ขณะเปิดหน้าเว็บไซต์ 5 วินาที มีสีสันออกไปทางโทนเย็น
 สบายตาต่อผู้ใช้ โปรแกรมที่ใช้เขียน : HTML + CSS + JAVASCRIPT จะอธิบายรายละเอียดส่วนต่าง ๆ ดังต่อไปนี้
+
+Navigation bar:
+Home page - go to the main page
+Department of Disease Control - shortcut for checking news about the virus(linking to Department of Disease Control website).
+Contact channel - the web page of the representative of the group for contacting
+About - About this webpage
+refresh-icon - Show the rotation status if the website has fetched complete information if it not done will stop spinning
+stat-icon - shows the current state of the water for each tank as a percentage.
 
 Navigation bar:
 หน้าหลัก - ไปยังหน้าหลัก
@@ -28,6 +38,8 @@ Navigation bar:
 refresh-icon - แสดงสถานะหมุนถ้าเว็ปไซต์สามารถ fetch ข้อมูลได้ครบถ้วน ถ้าไม่ครบจะหยุดหมุน
 stat-icon - แสดงสถานะน้ำแต่ละ tank เหลืออยู่ ณ ปัจจุบันเป็นเปอร์เซนต์
 
+
+
 Left Column:
   KU Smart Water - ไอคอนของ Project
   Slogan - เพื่อความบันเทิง
@@ -36,7 +48,7 @@ Left Column:
   คำอธิบาย - เชิญชวนให้ป้องกันเชื้อไวรัส
 
 // การ Fetch จะทำทุก ๆ 5 วินาทีซึ่งจะใกล้เคียงกับค่าเฉลี่ยในการกดน้ำ 1 ครั้งและไม่ให้ Server ทำงานหนักจนเกินไป
-// การ Fetch จะทำการดึงข้อมูลน้ำที่เหลิออยู่ จำนวนการกดน้ำช่วงปัจจุบันและน้ำที่มีการกดมากที่สุดในช่วงที่ผ่านมา ได้แก่ ระดับชั่วโมง ระดับวัน และ    ระดับสัปดาห์
+// การ Fetch จะทำการดึงข้อมูลน้ำที่เหลิออยู่ จำนวนการกดน้ำช่วงปัจจุบันและน้ำที่มีการกดมากที่สุดในช่วงที่ผ่านมา ได้แก่ ระดับชั่วโมง ระดับวัน และ ระดับสัปดาห์
 
 Middle Column:
   แสดงข้อมูลการกดน้ำ ณ ปัจจุบัน ตั้งแต่เริ่มชั่วโมงใหม่จนถึงเวลาสิ้นสุดชั่วโมงนั้น โดยมีเวลากำกับไว้ด้านล่าง เมื่อเริ่มต้น
